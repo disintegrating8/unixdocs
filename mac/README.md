@@ -41,8 +41,8 @@ Then select timezone and select Install
 
 # Installing AUR Helper
 You can use yay or paru, both will do the samething
-https://github.com/Jguer/yay
-https://github.com/Morganamilo/paru
+- https://github.com/Jguer/yay
+- https://github.com/Morganamilo/paru
 
 # Connect to Wifi
 ```bash
@@ -51,8 +51,7 @@ yay -S b43-firmware-classic
 
 reboot
 ```
-If it still does not appear try this guide:
-https://github.com/kr4fty/Config_BCM4360_on_Linux/
+If it still does not appear try this guide: https://github.com/kr4fty/Config_BCM4360_on_Linux/
 
 # Installing flatpak
 ```bash
