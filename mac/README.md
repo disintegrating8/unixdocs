@@ -78,3 +78,6 @@ sudo pacman -S ibus ibus-hangul
 sudo pacman -S fcitx5-im fcitx5-hangul
 ```
 If you are on Wayland select "Fcitx5 Wayland Launcher" on Settings -> Keyboard -> VirtualKeyboards
+
+# References
+- https://github.com/vaughaag/iMac12.1/ArchInstall/
