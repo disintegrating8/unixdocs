@@ -36,4 +36,46 @@ Choose All open-source or Intel(open-source) if you want minimal "bloat"
 - Choose pipewire for Audio
 ## network configuration
 - Just use networkmanager
+
 Then select timezone and select Install
+
+# Installing AUR Helper
+You can use yay or paru, both will do the samething
+https://github.com/Jguer/yay
+https://github.com/Morganamilo/paru
+
+# Connect to Wifi
+```bash
+sudo pacman -S broadcom-wl or broadcom-wl-dkms
+yay -S b43-firmware-classic
+
+reboot
+```
+If it still does not appear try this guide:
+https://github.com/kr4fty/Config_BCM4360_on_Linux/
+
+# Installing flatpak
+```bash
+sudo pacman -S flatpak
+```
+Then add the repo
+```bash
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+Reboot
+
+# Korean Input (Hangul)
+## Install a hangul font
+example
+```bash
+sudo pacman -S noto-fonts-cjk
+```
+## Gnome
+```bash
+sudo pacman -S ibus ibus-hangul
+```
+## KDE
+```bash
+sudo pacman -S fcitx5-im fcitx5-hangul
+```
+If you are on Wayland select "Fcitx5 Wayland Launcher" on Settings -> Keyboard -> VirtualKeyboards
